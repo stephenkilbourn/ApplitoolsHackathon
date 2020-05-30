@@ -1,0 +1,22 @@
+{
+  "name": "applitools-hackathon",
+  "version": "1.0.0",
+  "description": "tests for June 2020 Applitools Hackathon Contest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run:ff": "cypress run --browser firefox"
+  },
+  "author": "Stephen Kilbourn",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "file-system": "^2.2.2"
+  },
+  "devDependencies": {
+    "@testing-library/cypress": "^6.0.0",
+    "eslint": "^7.1.0",
+    "eslint-plugin-cypress": "^2.11.1"
+  }
+}

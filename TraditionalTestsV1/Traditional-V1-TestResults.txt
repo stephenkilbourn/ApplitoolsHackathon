@@ -1,0 +1,12 @@
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #ti-filter, Browser: chrome, Viewport: 1200x700, Device: macbook, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: .wishlist, Browser: chrome, Viewport: 1200x700, Device: macbook, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #UL____222, Browser: chrome, Viewport: 1200x700, Device: macbook, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #ti-filter, Browser: chrome, Viewport: 768x700, Device: macbook, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: .wishlist, Browser: chrome, Viewport: 768x700, Device: macbook, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #UL____222, Browser: chrome, Viewport: 768x700, Device: macbook, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #ti-filter, Browser: chrome, Viewport: 365x812, Device: macbook, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: .wishlist, Browser: chrome, Viewport: 365x812, Device: macbook, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #UL____222, Browser: chrome, Viewport: 365x812, Device: macbook, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #UL____424, Browser: chrome, Viewport: 365x812, Device: macbook, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #UL____440, Browser: chrome, Viewport: 365x812, Device: macbook, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #email_newsletter, Browser: chrome, Viewport: 365x812, Device: macbook, Status: Pass
