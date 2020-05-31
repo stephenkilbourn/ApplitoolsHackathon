@@ -1,0 +1,22 @@
+{
+  "name": "moderntestsv2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open"
+  },
+  "author": "Stephen Kilbourn",
+  "license": "ISC",
+  "devDependencies": {
+    "@applitools/eyes-cypress": "^3.11.1",
+    "@testing-library/cypress": "^6.0.0",
+    "cypress": "^4.7.0",
+    "eslint": "^7.1.0",
+    "eslint-plugin-cypress": "^2.11.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

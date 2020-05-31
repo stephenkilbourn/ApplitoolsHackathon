@@ -1,4 +1,7 @@
 {
   "baseUrl": "https://demo.applitools.com",
-  "integrationFolder": "cypress/e2e"
+  "integrationFolder": "cypress/e2e",
+  "env": {
+    "urlVersion": "/gridHackathonV1.html"
+  }
 }

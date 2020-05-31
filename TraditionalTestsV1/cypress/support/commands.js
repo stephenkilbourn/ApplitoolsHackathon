@@ -23,10 +23,10 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
-const browser = "chrome";
-const device = "macbook";
+// const browser = "chrome";
+// const device = "macbook";
 
-Cypress.Commands.add("testIdShouldBeVisible", (viewport, task, testName, testId) => {
+Cypress.Commands.add("testIdShouldBeVisible", (browser, device, viewport, task, testName, testId) => {
   let isDisplayed = false;
 
   if (Cypress.$(testId).length > 0) {
@@ -42,7 +42,7 @@ Cypress.Commands.add("testIdShouldBeVisible", (viewport, task, testName, testId)
   cy.findByTestId(testId).should("be.visible");
 });
 
-Cypress.Commands.add("testIdShouldNotBeVisible", (viewport, task, testName, testId) => {
+Cypress.Commands.add("testIdShouldNotBeVisible", (browser, device, viewport, task, testName, testId) => {
   let isDisplayed = true;
 
   if (Cypress.$(testId).length > 0) {
@@ -59,7 +59,7 @@ Cypress.Commands.add("testIdShouldNotBeVisible", (viewport, task, testName, test
 });
 
 
-Cypress.Commands.add("selectorShouldBeVisible", (viewport, task, testName, selector) => {
+Cypress.Commands.add("selectorShouldBeVisible", (browser, device, viewport, task, testName, selector) => {
   cy.get('body').then(() => {
     const $el = cy.$$(`${selector}:visible`)
     if ($el.length) {
@@ -81,7 +81,7 @@ Cypress.Commands.add("selectorShouldBeVisible", (viewport, task, testName, selec
       })
 })
 
-  Cypress.Commands.add("selectorShouldNotBeVisible", (viewport, task, testName, selector) => {
+  Cypress.Commands.add("selectorShouldNotBeVisible", (browser, device, viewport, task, testName, selector) => {
     cy.get('body').then(() => {
       const $el = cy.$$(`${selector}:visible`)
       if ($el.length) {

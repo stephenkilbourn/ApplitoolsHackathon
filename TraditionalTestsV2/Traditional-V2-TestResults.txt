@@ -1,0 +1,13 @@
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #ti-filter, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: .wishlist, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #UL____222, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #ti-filter, Browser: chrome 83.0.4103.61, Viewport: 768x700, Device: Tablet, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: .wishlist, Browser: chrome 83.0.4103.61, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #UL____222, Browser: chrome 83.0.4103.61, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #ti-filter, Browser: chrome 83.0.4103.61, Viewport: 365x812, Device: Mobile, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #INPUTtext____42, Browser: chrome 83.0.4103.61, Viewport: 365x812, Device: Mobile, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: .wishlist, Browser: chrome 83.0.4103.61, Viewport: 365x812, Device: Mobile, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #UL____222, Browser: chrome 83.0.4103.61, Viewport: 365x812, Device: Mobile, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #UL____424, Browser: chrome 83.0.4103.61, Viewport: 365x812, Device: Mobile, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #UL____440, Browser: chrome 83.0.4103.61, Viewport: 365x812, Device: Mobile, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #email_newsletter, Browser: chrome 83.0.4103.61, Viewport: 365x812, Device: Mobile, Status: Pass
