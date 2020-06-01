@@ -94,7 +94,35 @@ Cypress.Commands.add(
           { flag: "a+" }
         );
       }
+    }).then(() => {
+      cy.get(parent).contains(selectorTitle).should("not.be.visible");
     });
-    cy.get(parent).contains(selectorTitle).should("not.be.visible");
   }
 );
+
+
+Cypress.Commands.add(
+  "testChildrenCount",
+  (browser, device, viewport, task, testName, selectorTitle, count) => {
+    cy.get("body").then(() => {
+      const $el = cy.$$(`[data-original-title="${selectorTitle}"]:visible`);
+      if ($el.length === count) {
+        cy.writeFile(
+          logFileName,
+          `"Task: ${task}, Test Name: ${testName}, DOM Id: ${selectorTitle}, Browser: ${browser}, Viewport: ${viewport}, Device: ${device}, Status: Pass\n`,
+          { flag: "a+" }
+        );
+      } else {
+        cy.writeFile(
+          logFileName,
+          `"Task: ${task}, Test Name: ${testName}, DOM Id: ${selectorTitle}, Browser: ${browser}, Viewport: ${viewport}, Device: ${device}, Status: Pass\n`,
+          { flag: "a+" }
+        );
+      }
+    })      .then(() => {
+      cy.get(selectorTitle)
+      .children()
+      .should("have.length", count);
+    });
+  }
+)
