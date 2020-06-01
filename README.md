@@ -33,12 +33,13 @@ The base URL and the dirctory for the version under test are set under the `cypr
   "baseUrl": "https://demo.applitools.com",
   "integrationFolder": "cypress/e2e",
   "env": {
-    "urlVersion": "/gridHackathonV1.html"
+    "urlVersion": "/gridHackathonV1.html",
+    "logFileName": "..."
   }
 }
 ```
 
-### API Keys
+### API Keys 
 
 The Applitools API Key is stored as an environmental variable for the project in a `.env` file in the format:
 
@@ -50,7 +51,17 @@ And that api key is loaded by the `applitools.config.js` file found in the proje
 
 ### Traditional Tests Reporting
 
-Cypress be default has built in waiting that fails tests. For this challenge, it is necessary to log the failure to a `.txt` file. To enable this, custom cypress commands have been added to the `/cypress/support/commands.js` file that will log the necessary information for each assertation.
+Cypress be default has built in waiting that fails tests. For this challenge, it is necessary to log the failure to a `.txt` file. To enable this, custom cypress commands have been added to the `/cypress/support/commands.js` file that will log the necessary information for each assertation.  the Output filename is set in the `cypress.json` as an env:
+```
+{
+  "baseUrl": "...",
+  "integrationFolder": "...",
+  "env": {
+    "urlVersion": "...",
+    "logFileName": "Traditional-V1-TestResults.txt"
+  }
+}
+```
 
 ## Tasks
 

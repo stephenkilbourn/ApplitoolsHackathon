@@ -1,4 +1,4 @@
-const url = process.env.URL;
+const url = Cypress.env("urlVersion");
 
 const browserCombo = [
   // Add browsers with different viewports

@@ -2,6 +2,7 @@
   "baseUrl": "https://demo.applitools.com",
   "integrationFolder": "cypress/e2e",
   "env": {
-    "urlVersion": "/gridHackathonV1.html"
+    "urlVersion": "/gridHackathonV1.html",
+    "logFileName": "Traditional-V1-TestResults.txt"
   }
 }
