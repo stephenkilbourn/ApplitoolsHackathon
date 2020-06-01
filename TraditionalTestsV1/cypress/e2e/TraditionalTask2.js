@@ -26,11 +26,10 @@ describe("test full screen layout", () => {
       viewport,
       task,
       testName,
-      '#product_grid',
+      "#product_grid",
       expectedNumberOfResults
     );
   });
-
 
   it("add to favorites is not visible on items at full width", () => {
     cy.viewport(device.width, device.height);
@@ -92,22 +91,22 @@ describe("test tablet layout", () => {
   };
   let viewport = `${device.width.toString()}x${device.height.toString()}`;
 
-
-  it("add to favorites is not visible on items", () => {
+  it.only("Item Count of results is valid", () => {
     cy.viewport(device.width, device.height);
     cy.visit(url);
-    cy.get(".grid_item").each(($grid_item) => {
-      let selector = "Add to favorites";
-      cy.selectorByTitleShouldBeVisibleWithinParent(
-        browser,
-        device.name,
-        viewport,
-        task,
-        testName,
-        selector,
-        $grid_item
-      );
-    });
+    cy.get("#ti-filter").click();
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+
+    cy.testChildrenCount(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      "#product_grid",
+      expectedNumberOfResults
+    );
   });
 
   it("add to compare is visible on items", () => {
@@ -153,46 +152,25 @@ describe("test mobile layout", () => {
   };
   let viewport = `${device.width.toString()}x${device.height.toString()}`;
 
-  it("test filter button is  visible", () => {
+  it.only("Item Count of results is valid", () => {
     cy.viewport(device.width, device.height);
     cy.visit(url);
-    cy.selectorShouldBeVisible(
+    cy.get("#ti-filter").click();
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+
+    cy.testChildrenCount(
       browser,
       device.name,
       viewport,
       task,
       testName,
-      "#ti-filter"
+      "#product_grid",
+      expectedNumberOfResults
     );
   });
 
-  it("Hide search field on mobile", () => {
-    cy.viewport(device.width, device.height);
-    cy.visit(url);
-    cy.selectorShouldNotBeVisible(
-      browser,
-      device.name,
-      viewport,
-      task,
-      testName,
-      "#INPUTtext____42"
-    );
-  });
-
-  it("test wish list icon is visible", () => {
-    cy.viewport(device.width, device.height);
-    cy.visit(url);
-    cy.selectorShouldNotBeVisible(
-      browser,
-      device.name,
-      viewport,
-      task,
-      testName,
-      ".wishlist"
-    );
-  });
-
-  it("add to favorites is not visible on items at full width", () => {
+  it("add to favorites is visible on items", () => {
     cy.viewport(device.width, device.height);
     cy.visit(url);
     cy.get(".grid_item").each(($grid_item) => {
@@ -241,46 +219,5 @@ describe("test mobile layout", () => {
         $grid_item
       );
     });
-  });
-
-  it("Quick Links footer bar should be collapsed", () => {
-    cy.viewport(device.width, device.height);
-    cy.visit(url);
-    cy.selectorShouldNotBeVisible(
-      browser,
-      device.name,
-      viewport,
-      task,
-      testName,
-      "#UL____424"
-    );
-  });
-
-  it("Contacts footer bar should be collapsed", () => {
-    cy.viewport(device.width, device.height);
-    cy.visit(url);
-    cy.selectorShouldNotBeVisible(
-      browser,
-      device.name,
-      viewport,
-      task,
-      testName,
-      "#UL____440"
-    );
-  });
-
-  it("Keep In Touch footer bar should be collapsed", () => {
-    cy.viewport(device.width, device.height);
-    cy.visit(url);
-    cy.visit(url);
-    cy.findByText(/keep in touch/i).should("be.visible");
-    cy.selectorShouldNotBeVisible(
-      browser,
-      device.name,
-      viewport,
-      task,
-      testName,
-      "#email_newsletter"
-    );
   });
 });
