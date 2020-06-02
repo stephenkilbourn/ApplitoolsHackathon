@@ -101,6 +101,63 @@ describe("test full screen layout", () => {
       "0px"
     );
   });
+
+  it("account icon layout is correct", () => {
+    cy.viewport(device.width, device.height);
+    cy.visit(url);
+    cy.get("#ti-filter").click();
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+    cy.get(".grid_item").first().click();
+    cy.checkCSSPropertyofParentsParent(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      ".access_link",
+      "margin-left",
+      "20px"
+    );
+  });
+
+  it("wishlist icon layout is correct", () => {
+    cy.viewport(device.width, device.height);
+    cy.visit(url);
+    cy.get("#ti-filter").click();
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+    cy.get(".grid_item").first().click();
+    cy.checkCSSPropertyofParent(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      ".wishlist",
+      "margin-left",
+      "20px"
+    );
+  });
+
+  it.only("Cart Button icon layout is correct", () => {
+    cy.viewport(device.width, device.height);
+    cy.visit(url);
+    cy.get("#ti-filter").click();
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+    cy.get(".grid_item").first().click();
+    cy.checkCSSPropertyofParentsParent(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      ".cart_bt",
+      "margin-left",
+      "20px"
+    );
+  });
 });
 
 describe("test tablet layout", () => {
@@ -207,7 +264,6 @@ describe("test tablet layout", () => {
   it("add to cart button layout is correct", () => {
     cy.viewport(device.width, device.height);
     cy.visit(url);
-    // cy.visit('gridHackathonV2.html')
     cy.get("#ti-filter").click();
     cy.findByRole("checkbox", { name: /black/i }).click();
     cy.findByRole("button", { name: /filter/i }).click();
@@ -224,7 +280,62 @@ describe("test tablet layout", () => {
     );
   });
 
-  it("add to cart is visible on items", () => {});
+  it("account icon layout is correct", () => {
+    cy.viewport(device.width, device.height);
+    cy.visit(url);
+    cy.get("#ti-filter").click();
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+    cy.get(".grid_item").first().click();
+    cy.checkCSSPropertyofParentsParent(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      ".access_link",
+      "margin-left",
+      "20px"
+    );
+  });
+
+  it("wishlist icon layout is correct", () => {
+    cy.viewport(device.width, device.height);
+    cy.visit(url);
+    cy.get("#ti-filter").click();
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+    cy.get(".grid_item").first().click();
+    cy.checkCSSPropertyofParent(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      ".wishlist",
+      "margin-left",
+      "20px"
+    );
+  });
+
+  it.only("Cart Button icon layout is correct", () => {
+    cy.viewport(device.width, device.height);
+    cy.visit(url);
+    cy.get("#ti-filter").click();
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+    cy.get(".grid_item").first().click();
+    cy.checkCSSPropertyofParentsParent(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      ".cart_bt",
+      "margin-left",
+      "20px"
+    );
+  });
 });
 
 describe("test mobile layout", () => {
@@ -329,6 +440,60 @@ describe("test mobile layout", () => {
     );
   });
 
-  it("add to compare is visible on items", () => {});
+  it("account icon layout is correct", () => {
+    cy.viewport(device.width, device.height);
+    cy.visit(url);
+    cy.get("#ti-filter").click();
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+    cy.get(".grid_item").first().click();
+    cy.checkCSSPropertyofParentsParent(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      ".access_link",
+      "margin-left",
+      "20px"
+    );
+  });
+
+  it("wishlist icon layout is correct", () => {
+    cy.viewport(device.width, device.height);
+    cy.visit(url);
+    cy.get("#ti-filter").click();
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+    cy.get(".grid_item").first().click();
+    cy.checkCSSPropertyofParent(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      ".wishlist",
+      "margin-left",
+      "20px"
+    );
+  });
+  it.only("Cart Button icon layout is correct", () => {
+    cy.viewport(device.width, device.height);
+    cy.visit(url);
+    cy.get("#ti-filter").click();
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+    cy.get(".grid_item").first().click();
+    cy.checkCSSPropertyofParentsParent(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      ".cart_bt",
+      "margin-left",
+      "20px"
+    );
+  });
 
 });
