@@ -14,14 +14,12 @@ describe("test full screen layout", () => {
   };
   let viewport = `${device.width.toString()}x${device.height.toString()}`;
 
-  it.only("show product image", () => {
+  it("show product image", () => {
     cy.viewport(device.width, device.height);
-    cy.visit("/gridHackathonV2.html");
-    // cy.get("#ti-filter").click();
+    cy.visit(url);
     cy.findByRole("checkbox", { name: /black/i }).click();
     cy.findByRole("button", { name: /filter/i }).click();
     cy.get(".grid_item").first().click();
-    // cy.get("#shoe_img").should("have.css", "background-image").and('match', /jpg/);
     cy.checkImageURLPresent(
       browser,
       device.name,
@@ -35,11 +33,41 @@ describe("test full screen layout", () => {
   it("Check for SKU", () => {
     cy.viewport(device.width, device.height);
     cy.visit(url);
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+    cy.get(".grid_item").first().click();
+    cy.checkCSSProperty(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      "#SMALL____84",
+      "color",
+      "rgb(68, 68, 68)"
+    );
   });
 
-  it("Show sale price in correct format", () => {
+  it.only("Show sale price in correct format", () => {
+    let salePrice="$33.00"
     cy.viewport(device.width, device.height);
-    cy.visit(url);
+    cy.visit("/gridHackathonV2.html");
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+    cy.get(".grid_item").first().click();
+
+    // cy.get('#new_price').should("contain", salePrice)
+
+    cy.checkValue(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      "#new_price",
+      salePrice
+    );
+
   });
 
   it("Show default size option as Small", () => {
@@ -56,7 +84,44 @@ describe("test tablet layout", () => {
   };
   let viewport = `${device.width.toString()}x${device.height.toString()}`;
 
-  it("Item Count of results is valid", () => {});
+  it("show product image", () => {
+    cy.viewport(device.width, device.height);
+    cy.visit("/gridHackathonV2.html");
+    cy.get("#ti-filter").click();
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+    cy.get(".grid_item").first().click();
+    cy.checkImageURLPresent(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      "#shoe_img"
+    );
+  });
+
+  it("Check for SKU", () => {
+    cy.viewport(device.width, device.height);
+    cy.visit(url);
+    cy.get("#ti-filter").click();
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+    cy.get(".grid_item").first().click();
+    cy.checkCSSProperty(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      "#SMALL____84",
+      "color",
+      "rgb(68, 68, 68)"
+    );
+  });
+  
+
+  it("Reviews & Stars layout is correct", () => {});
 
   it("add to compare is visible on items", () => {});
 
@@ -70,6 +135,42 @@ describe("test mobile layout", () => {
     height: 700,
   };
   let viewport = `${device.width.toString()}x${device.height.toString()}`;
+
+  it("show product image", () => {
+    cy.viewport(device.width, device.height);
+    cy.visit("/gridHackathonV2.html");
+    cy.get("#ti-filter").click();
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+    cy.get(".grid_item").first().click();
+    cy.checkImageURLPresent(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      "#shoe_img"
+    );
+  });
+
+  it("Check for SKU", () => {
+    cy.viewport(device.width, device.height);
+    cy.visit(url);
+    cy.get("#ti-filter").click();
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+    cy.get(".grid_item").first().click();
+    cy.checkCSSProperty(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      "#SMALL____84",
+      "color",
+      "rgb(68, 68, 68)"
+    );
+  });
 
   it("Item Count of results is valid", () => {});
 
