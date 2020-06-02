@@ -170,7 +170,7 @@ Cypress.Commands.add(
       .then(() => {
         const $el = cy.$$(`${selectorTitle}:visible`);
 
-        if ($el.css(CSSProperty).includes(CSSPropertyValue)) {
+        if ($el.css(CSSProperty) === CSSPropertyValue) {
           cy.writeFile(
             logFileName,
             `"Task: ${task}, Test Name: ${testName}, DOM Id: ${selectorTitle}, Browser: ${browser}, Viewport: ${viewport}, Device: ${device}, Status: Pass\n`,

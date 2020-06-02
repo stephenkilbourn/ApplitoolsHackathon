@@ -204,14 +204,24 @@ describe("test tablet layout", () => {
     );
   });
 
-  it.only("add to cart button layout is correct", () => {
+  it("add to cart button layout is correct", () => {
     cy.viewport(device.width, device.height);
     cy.visit(url);
+    // cy.visit('gridHackathonV2.html')
     cy.get("#ti-filter").click();
     cy.findByRole("checkbox", { name: /black/i }).click();
     cy.findByRole("button", { name: /filter/i }).click();
     cy.get(".grid_item").first().click();
-
+    cy.checkCSSProperty(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      ".btn_add_to_cart",
+      "margin-top",
+      "0px"
+    );
   });
 
   it("add to cart is visible on items", () => {});
