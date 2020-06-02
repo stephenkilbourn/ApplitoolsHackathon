@@ -51,13 +51,10 @@ describe("test full screen layout", () => {
   it.only("Show sale price in correct format", () => {
     let salePrice="$33.00"
     cy.viewport(device.width, device.height);
-    cy.visit("/gridHackathonV2.html");
+    cy.visit(url);
     cy.findByRole("checkbox", { name: /black/i }).click();
     cy.findByRole("button", { name: /filter/i }).click();
     cy.get(".grid_item").first().click();
-
-    // cy.get('#new_price').should("contain", salePrice)
-
     cy.checkValue(
       browser,
       device.name,
@@ -67,7 +64,6 @@ describe("test full screen layout", () => {
       "#new_price",
       salePrice
     );
-
   });
 
   it("Show default size option as Small", () => {
@@ -86,7 +82,7 @@ describe("test tablet layout", () => {
 
   it("show product image", () => {
     cy.viewport(device.width, device.height);
-    cy.visit("/gridHackathonV2.html");
+    cy.visit(url);
     cy.get("#ti-filter").click();
     cy.findByRole("checkbox", { name: /black/i }).click();
     cy.findByRole("button", { name: /filter/i }).click();
@@ -120,6 +116,24 @@ describe("test tablet layout", () => {
     );
   });
   
+  it.only("Show sale price in correct format", () => {
+    let salePrice="$33.00"
+    cy.viewport(device.width, device.height);
+    cy.visit(url);
+    cy.get("#ti-filter").click();
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+    cy.get(".grid_item").first().click();
+    cy.checkValue(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      "#new_price",
+      salePrice
+    );
+  });
 
   it("Reviews & Stars layout is correct", () => {});
 
@@ -172,7 +186,24 @@ describe("test mobile layout", () => {
     );
   });
 
-  it("Item Count of results is valid", () => {});
+  it.only("Show sale price in correct format", () => {
+    let salePrice="$33.00"
+    cy.viewport(device.width, device.height);
+    cy.visit(url);
+    cy.get("#ti-filter").click();
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+    cy.get(".grid_item").first().click();
+    cy.checkValue(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      "#new_price",
+      salePrice
+    );
+  });
 
   it("add to favorites is visible on items", () => {});
 
