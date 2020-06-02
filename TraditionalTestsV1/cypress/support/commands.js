@@ -191,6 +191,41 @@ Cypress.Commands.add(
 );
 
 Cypress.Commands.add(
+  "checkCSSPropertyofLastChild",
+  (
+    browser,
+    device,
+    viewport,
+    task,
+    testName,
+    selectorTitle,
+    CSSProperty,
+    CSSPropertyValue
+  ) => {
+    cy.get("body")
+      .then(() => {
+        const $el = cy.$$(`${selectorTitle}:visible`);
+        if ($el.children().last().css(CSSProperty) === CSSPropertyValue ) {
+          cy.writeFile(
+            logFileName,
+            `"Task: ${task}, Test Name: ${testName}, DOM Id: ${selectorTitle}, Browser: ${browser}, Viewport: ${viewport}, Device: ${device}, Status: Pass\n`,
+            { flag: "a+" }
+          );
+        } else {
+          cy.writeFile(
+            logFileName,
+            `"Task: ${task}, Test Name: ${testName}, DOM Id: ${selectorTitle}, Browser: ${browser}, Viewport: ${viewport}, Device: ${device}, Status: Fail\n`,
+            { flag: "a+" }
+          );
+        }
+      })
+      .then(() => {
+        cy.get(selectorTitle).children().last().should("have.css", CSSProperty, CSSPropertyValue);
+      });
+  }
+);
+
+Cypress.Commands.add(
   "checkValue",
   (browser, device, viewport, task, testName, selectorTitle, value) => {
     cy.get("body")

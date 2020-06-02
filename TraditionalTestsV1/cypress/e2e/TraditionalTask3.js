@@ -48,8 +48,8 @@ describe("test full screen layout", () => {
     );
   });
 
-  it.only("Show sale price in correct format", () => {
-    let salePrice="$33.00"
+  it("Show sale price in correct format", () => {
+    let salePrice = "$33.00";
     cy.viewport(device.width, device.height);
     cy.visit(url);
     cy.findByRole("checkbox", { name: /black/i }).click();
@@ -67,8 +67,39 @@ describe("test full screen layout", () => {
   });
 
   it("Show default size option as Small", () => {
+    let defaultSize = "Small (S)";
     cy.viewport(device.width, device.height);
     cy.visit(url);
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+    cy.get(".grid_item").first().click();
+    cy.get(".current");
+    cy.checkValue(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      ".current",
+      defaultSize
+    );
+  });
+  it("Reviews & Stars layout is correct", () => {
+    cy.viewport(device.width, device.height);
+    cy.visit(url)
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+    cy.get(".grid_item").first().click();
+    cy.checkCSSPropertyofLastChild(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      ".rating",
+      "margin-left",
+      "0px"
+    );
   });
 });
 
@@ -115,9 +146,9 @@ describe("test tablet layout", () => {
       "rgb(68, 68, 68)"
     );
   });
-  
-  it.only("Show sale price in correct format", () => {
-    let salePrice="$33.00"
+
+  it("Show sale price in correct format", () => {
+    let salePrice = "$33.00";
     cy.viewport(device.width, device.height);
     cy.visit(url);
     cy.get("#ti-filter").click();
@@ -135,9 +166,53 @@ describe("test tablet layout", () => {
     );
   });
 
-  it("Reviews & Stars layout is correct", () => {});
+  it("Show default size option as Small", () => {
+    let defaultSize = "Small (S)";
+    cy.viewport(device.width, device.height);
+    cy.visit(url);
+    cy.get("#ti-filter").click();
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+    cy.get(".grid_item").first().click();
+    cy.checkValue(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      ".current",
+      defaultSize
+    );
+  });
 
-  it("add to compare is visible on items", () => {});
+  it("Reviews & Stars layout is correct", () => {
+    cy.viewport(device.width, device.height);
+    cy.visit(url);
+    cy.get("#ti-filter").click();
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+    cy.get(".grid_item").first().click();
+    cy.checkCSSPropertyofLastChild(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      ".rating",
+      "margin-left",
+      "0px"
+    );
+  });
+
+  it.only("add to cart button layout is correct", () => {
+    cy.viewport(device.width, device.height);
+    cy.visit(url);
+    cy.get("#ti-filter").click();
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+    cy.get(".grid_item").first().click();
+
+  });
 
   it("add to cart is visible on items", () => {});
 });
@@ -152,7 +227,7 @@ describe("test mobile layout", () => {
 
   it("show product image", () => {
     cy.viewport(device.width, device.height);
-    cy.visit("/gridHackathonV2.html");
+    cy.visit(url);
     cy.get("#ti-filter").click();
     cy.findByRole("checkbox", { name: /black/i }).click();
     cy.findByRole("button", { name: /filter/i }).click();
@@ -186,8 +261,8 @@ describe("test mobile layout", () => {
     );
   });
 
-  it.only("Show sale price in correct format", () => {
-    let salePrice="$33.00"
+  it("Show sale price in correct format", () => {
+    let salePrice = "$33.00";
     cy.viewport(device.width, device.height);
     cy.visit(url);
     cy.get("#ti-filter").click();
@@ -205,9 +280,45 @@ describe("test mobile layout", () => {
     );
   });
 
-  it("add to favorites is visible on items", () => {});
+  it("Show default size option as Small", () => {
+    let defaultSize = "Small (S)";
+    cy.viewport(device.width, device.height);
+    cy.visit(url);
+    cy.get("#ti-filter").click();
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+    cy.get(".grid_item").first().click();
+    cy.get(".current");
+    cy.checkValue(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      ".current",
+      defaultSize
+    );
+  });
+
+  it("Reviews & Stars layout is correct", () => {
+    cy.viewport(device.width, device.height);
+    cy.visit(url);
+    cy.get("#ti-filter").click();
+    cy.findByRole("checkbox", { name: /black/i }).click();
+    cy.findByRole("button", { name: /filter/i }).click();
+    cy.get(".grid_item").first().click();
+    cy.checkCSSPropertyofLastChild(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      ".rating",
+      "margin-left",
+      "0px"
+    );
+  });
 
   it("add to compare is visible on items", () => {});
 
-  it("add to cart is visible on items", () => {});
 });
