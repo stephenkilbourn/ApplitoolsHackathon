@@ -21,8 +21,15 @@ describe("test full screen layout", () => {
     cy.findByRole("checkbox", { name: /black/i }).click();
     cy.findByRole("button", { name: /filter/i }).click();
     cy.get(".grid_item").first().click();
-    cy.get("#shoe_img").should("be.visible");
-    cy.get("#shoe_img").should("have.css", "background-image").and('match', /jpg/);
+    // cy.get("#shoe_img").should("have.css", "background-image").and('match', /jpg/);
+    cy.checkImageURLPresent(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      "#shoe_img"
+    );
   });
 
   it("Check for SKU", () => {
