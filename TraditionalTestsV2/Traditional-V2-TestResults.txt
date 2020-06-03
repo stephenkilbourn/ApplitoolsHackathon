@@ -1,115 +1,45 @@
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #ti-filter, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Fail
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #ti-filter, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Fail
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: .wishlist, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: .wishlist, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #ti-filter, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Fail
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #ti-filter, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Fail
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: .wishlist, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #ti-filter, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: .ti-view-list, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: .ti-view-grid, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: .wishlist, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #ti-filter, Browser: chrome 83.0.4103.61, Viewport: 768x700, Device: Tablet, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: .wishlist, Browser: chrome 83.0.4103.61, Viewport: 768x700, Device: Tablet, Status: Fail
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #ti-filter, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: .wishlist, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Fail
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 768x700, Device: Tablet, Status: Fail
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Fail
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 768x700, Device: Tablet, Status: Fail
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Fail
 "Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 768x700, Device: Tablet, Status: Fail
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Fail
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #ti-filter, Browser: chrome 83.0.4103.61, Viewport: 500x700, Device: Mobile, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #INPUTtext____42, Browser: chrome 83.0.4103.61, Viewport: 500x700, Device: Mobile, Status: Fail
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: .wishlist, Browser: chrome 83.0.4103.61, Viewport: 500x700, Device: Mobile, Status: Fail
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 500x700, Device: Mobile, Status: Fail
 "Task: Task 2, Test Name: Filter Results, DOM Id: #product_grid, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Fail
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 500x700, Device: Mobile, Status: Fail
 "Task: Task 2, Test Name: Filter Results, DOM Id: Add to favorites, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 2, Test Name: Filter Results, DOM Id: Add to favorites, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 2, Test Name: Filter Results, DOM Id: Add to favorites, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 500x700, Device: Mobile, Status: Fail
 "Task: Task 2, Test Name: Filter Results, DOM Id: Add to compare, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 2, Test Name: Filter Results, DOM Id: Add to compare, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 2, Test Name: Filter Results, DOM Id: Add to compare, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
@@ -117,55 +47,162 @@
 "Task: Task 2, Test Name: Filter Results, DOM Id: Add to cart, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 2, Test Name: Filter Results, DOM Id: Add to cart, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 2, Test Name: Filter Results, DOM Id: #product_grid, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #collapse_1, Browser: chrome 83.0.4103.61, Viewport: 500x700, Device: Mobile, Status: Fail
 "Task: Task 2, Test Name: Filter Results, DOM Id: Add to favorites, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #collapse_3, Browser: chrome 83.0.4103.61, Viewport: 500x700, Device: Mobile, Status: Pass
-"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #collapse_4, Browser: chrome 83.0.4103.61, Viewport: 500x700, Device: Mobile, Status: Pass
 "Task: Task 2, Test Name: Filter Results, DOM Id: Add to compare, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
 "Task: Task 2, Test Name: Filter Results, DOM Id: Add to cart, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
-"Task: Task 2, Test Name: Filter Results, DOM Id: #product_grid, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Fail
-"Task: Task 2, Test Name: Filter Results, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 2, Test Name: Filter Results, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 2, Test Name: Filter Results, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 2, Test Name: Filter Results, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 2, Test Name: Filter Results, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 2, Test Name: Filter Results, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 3, Test Name: Product Details test, DOM Id: #shoe_img, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: Task 3, Test Name: Product Details test, DOM Id: #SMALL____84, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: Task 3, Test Name: Product Details test, DOM Id: #new_price, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: Task 3, Test Name: Product Details test, DOM Id: .current, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: Task 3, Test Name: Product Details test, DOM Id: .rating, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 3, Test Name: Product Details test, DOM Id: .access_link, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 3, Test Name: Product Details test, DOM Id: .wishlist, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 3, Test Name: Product Details test, DOM Id: .cart_bt, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 3, Test Name: Product Details test, DOM Id: #shoe_img, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 3, Test Name: Product Details test, DOM Id: #SMALL____84, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 3, Test Name: Product Details test, DOM Id: #new_price, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 3, Test Name: Product Details test, DOM Id: .current, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 3, Test Name: Product Details test, DOM Id: .rating, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 3, Test Name: Product Details test, DOM Id: .btn_add_to_cart, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 3, Test Name: Product Details test, DOM Id: .access_link, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 3, Test Name: Product Details test, DOM Id: .wishlist, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 3, Test Name: Product Details test, DOM Id: .cart_bt, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: .wishlist, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #ti-filter, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: .ti-view-list, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: .ti-view-grid, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: .wishlist, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: .wishlist, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 2, Test Name: Filter Results, DOM Id: #product_grid, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 2, Test Name: Filter Results, DOM Id: Add to favorites, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 2, Test Name: Filter Results, DOM Id: Add to favorites, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 2, Test Name: Filter Results, DOM Id: Add to favorites, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 2, Test Name: Filter Results, DOM Id: Add to compare, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 2, Test Name: Filter Results, DOM Id: Add to compare, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 2, Test Name: Filter Results, DOM Id: Add to compare, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 2, Test Name: Filter Results, DOM Id: Add to cart, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 2, Test Name: Filter Results, DOM Id: Add to cart, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 2, Test Name: Filter Results, DOM Id: Add to cart, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 2, Test Name: Filter Results, DOM Id: #product_grid, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #ti-filter, Browser: chrome 83.0.4103.61, Viewport: 768x700, Device: Tablet, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: .ti-view-list, Browser: chrome 83.0.4103.61, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 2, Test Name: Filter Results, DOM Id: Add to favorites, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: .ti-view-grid, Browser: chrome 83.0.4103.61, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 2, Test Name: Filter Results, DOM Id: Add to compare, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 2, Test Name: Filter Results, DOM Id: Add to cart, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: .wishlist, Browser: chrome 83.0.4103.61, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 3, Test Name: Product Details test, DOM Id: #shoe_img, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 3, Test Name: Product Details test, DOM Id: #SMALL____84, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 3, Test Name: Product Details test, DOM Id: #new_price, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 3, Test Name: Product Details test, DOM Id: .current, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 3, Test Name: Product Details test, DOM Id: .rating, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 3, Test Name: Product Details test, DOM Id: .access_link, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 3, Test Name: Product Details test, DOM Id: .wishlist, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 3, Test Name: Product Details test, DOM Id: .cart_bt, Browser: edge 83.0.478.44, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 3, Test Name: Product Details test, DOM Id: #shoe_img, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Pass
+"Task: Task 3, Test Name: Product Details test, DOM Id: #SMALL____84, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #ti-filter, Browser: chrome 83.0.4103.61, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #INPUTtext____42, Browser: chrome 83.0.4103.61, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: Task 3, Test Name: Product Details test, DOM Id: #new_price, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: .wishlist, Browser: chrome 83.0.4103.61, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: Task 3, Test Name: Product Details test, DOM Id: .current, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: Task 3, Test Name: Product Details test, DOM Id: .rating, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: Task 3, Test Name: Product Details test, DOM Id: .btn_add_to_cart, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: Task 3, Test Name: Product Details test, DOM Id: .access_link, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #collapse_1, Browser: chrome 83.0.4103.61, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: Task 3, Test Name: Product Details test, DOM Id: .wishlist, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #collapse_3, Browser: chrome 83.0.4103.61, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: Task 1, Test Name: Cross-Device Elements Test, DOM Id: #collapse_4, Browser: chrome 83.0.4103.61, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: Task 2, Test Name: Filter Results, DOM Id: #product_grid, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: Task 3, Test Name: Product Details test, DOM Id: .cart_bt, Browser: edge 83.0.478.44, Viewport: 768x700, Device: Tablet, Status: Fail
+"Task: Task 2, Test Name: Filter Results, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 2, Test Name: Filter Results, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 2, Test Name: Filter Results, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 2, Test Name: Filter Results, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 2, Test Name: Filter Results, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: Task 2, Test Name: Filter Results, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 2, Test Name: Filter Results, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 2, Test Name: Filter Results, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 2, Test Name: Filter Results, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 2, Test Name: Filter Results, DOM Id: #product_grid, Browser: chrome 83.0.4103.61, Viewport: 768x700, Device: Tablet, Status: Fail
-"Task: Task 3, Test Name: Product Details test, DOM Id: #SMALL____84, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Fail
 "Task: Task 2, Test Name: Filter Results, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 768x700, Device: Tablet, Status: Fail
-"Task: Task 3, Test Name: Product Details test, DOM Id: #new_price, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Fail
 "Task: Task 2, Test Name: Filter Results, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 768x700, Device: Tablet, Status: Fail
-"Task: Task 3, Test Name: Product Details test, DOM Id: .current, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Fail
 "Task: Task 2, Test Name: Filter Results, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 768x700, Device: Tablet, Status: Fail
-"Task: Task 3, Test Name: Product Details test, DOM Id: .rating, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 3, Test Name: Product Details test, DOM Id: .access_link, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 2, Test Name: Filter Results, DOM Id: #product_grid, Browser: chrome 83.0.4103.61, Viewport: 500x700, Device: Mobile, Status: Fail
-"Task: Task 3, Test Name: Product Details test, DOM Id: .wishlist, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 3, Test Name: Product Details test, DOM Id: .cart_bt, Browser: firefox 76.0.1, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 3, Test Name: Product Details test, DOM Id: #shoe_img, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
 "Task: Task 2, Test Name: Filter Results, DOM Id: Add to favorites, Browser: chrome 83.0.4103.61, Viewport: 500x700, Device: Mobile, Status: Fail
-"Task: Task 3, Test Name: Product Details test, DOM Id: #SMALL____84, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
 "Task: Task 2, Test Name: Filter Results, DOM Id: Add to compare, Browser: chrome 83.0.4103.61, Viewport: 500x700, Device: Mobile, Status: Fail
-"Task: Task 3, Test Name: Product Details test, DOM Id: #new_price, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
 "Task: Task 2, Test Name: Filter Results, DOM Id: Add to cart, Browser: chrome 83.0.4103.61, Viewport: 500x700, Device: Mobile, Status: Fail
-"Task: Task 3, Test Name: Product Details test, DOM Id: .current, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
-"Task: Task 3, Test Name: Product Details test, DOM Id: .rating, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
 "Task: Task 3, Test Name: Product Details test, DOM Id: #shoe_img, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 3, Test Name: Product Details test, DOM Id: #SMALL____84, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Fail
-"Task: Task 3, Test Name: Product Details test, DOM Id: .btn_add_to_cart, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
 "Task: Task 3, Test Name: Product Details test, DOM Id: #new_price, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Fail
-"Task: Task 3, Test Name: Product Details test, DOM Id: .access_link, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
 "Task: Task 3, Test Name: Product Details test, DOM Id: .current, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Fail
-"Task: Task 3, Test Name: Product Details test, DOM Id: .wishlist, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
 "Task: Task 3, Test Name: Product Details test, DOM Id: .rating, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 3, Test Name: Product Details test, DOM Id: .access_link, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 3, Test Name: Product Details test, DOM Id: .wishlist, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: Task 3, Test Name: Product Details test, DOM Id: .cart_bt, Browser: chrome 83.0.4103.61, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: Task 3, Test Name: Product Details test, DOM Id: .cart_bt, Browser: firefox 76.0.1, Viewport: 768x700, Device: Tablet, Status: Fail
 "Task: Task 3, Test Name: Product Details test, DOM Id: #shoe_img, Browser: chrome 83.0.4103.61, Viewport: 768x700, Device: Tablet, Status: Pass
 "Task: Task 3, Test Name: Product Details test, DOM Id: #SMALL____84, Browser: chrome 83.0.4103.61, Viewport: 768x700, Device: Tablet, Status: Fail
 "Task: Task 3, Test Name: Product Details test, DOM Id: #new_price, Browser: chrome 83.0.4103.61, Viewport: 768x700, Device: Tablet, Status: Fail

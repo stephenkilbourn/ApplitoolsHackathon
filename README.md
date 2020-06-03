@@ -1,4 +1,4 @@
-This repo contains source code for my entry to the Applitools Cross Browser Testing Hackathon using Cypress testing framework to run cross browser tests on both the Applitools Ultrafast Grid for the modern approach and the traditional approach using my local Chrome, Firefox, and Edge Chromium browsers.
+This repo contains source code for my entry to the [Applitools](https://applitools.com/) Cross Browser Testing Hackathon using Cypress testing framework to run cross browser tests on both the Applitools Ultrafast Grid for the modern approach and the traditional approach using my local Chrome, Firefox, and Edge Chromium browsers.
 
 ## Overview
 
@@ -16,8 +16,8 @@ The Hackathon App
 1. “TraditionalTestsV2” — Folder/Project with traditional Test code for V2 of the app
 1. “ModernTestsV1” — Folder/Project with UFG Test code for V1 of the app
 1. “ModernTestsV2” — Folder/Project with UFG Test code for V2 of the app
-1. Traditional-V1-TestResults.txt
-1. Traditional-V2-TestResults.txt
+1. [Traditional-V1-TestResults.txt](https://github.com/krulletc/ApplitoolsHackathon/blob/master/TraditionalTestsV1/Traditional-V1-TestResults.txt)
+1. [Traditional-V2-TestResults.txt](https://github.com/krulletc/ApplitoolsHackathon/blob/master/TraditionalTestsV2/Traditional-V2-TestResults.txt)
 1. README.md – Details about how to execute your projects.
 
 ## Configuration
