@@ -5,7 +5,7 @@ Cypress.Commands.add(
   (browser, device, viewport, task, testName, selector) => {
     cy.get("body").then(() => {
       const $el = cy.$$(`${selector}:visible`);
-      if ($el.length) {
+      if ($el.length > 0) {
         cy.writeFile(
           logFileName,
           `"Task: ${task}, Test Name: ${testName}, DOM Id: ${selector}, Browser: ${browser}, Viewport: ${viewport}, Device: ${device}, Status: Pass\n`,
@@ -29,7 +29,7 @@ Cypress.Commands.add(
   (browser, device, viewport, task, testName, selector) => {
     cy.get("body").then(() => {
       const $el = cy.$$(`${selector}:visible`);
-      if ($el.length) {
+      if ($el.length > 0) {
         cy.writeFile(
           logFileName,
           `"Task: ${task}, Test Name: ${testName}, DOM Id: ${selector}, Browser: ${browser}, Viewport: ${viewport}, Device: ${device}, Status: Fail\n`,
@@ -359,7 +359,7 @@ Cypress.Commands.add(
   ) => {
     cy.get("body")
       .then(() => {
-        const $el = cy.$$(`${selectorTitle}:visible`);
+        const $el = cy.$$(`${selectorTitle}`);
         if ($el.parent().css(CSSProperty) === CSSPropertyValue) {
           cy.writeFile(
             logFileName,

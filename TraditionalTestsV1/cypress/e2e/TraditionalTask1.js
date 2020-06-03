@@ -101,7 +101,6 @@ describe("test tablet layout", () => {
   it("filter button is visible", () => {
     cy.viewport(device.width, device.height);
     cy.visit(url);
-    cy.findByText(/filters/i);
     cy.selectorShouldBeVisible(
       browser,
       device.name,
@@ -109,6 +108,36 @@ describe("test tablet layout", () => {
       task,
       testName,
       "#ti-filter"
+    );
+  });
+
+  it("list view button is not visible", () => {
+    cy.viewport(device.width, device.height);
+    cy.visit(url);
+    cy.checkCSSPropertyofParent(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      ".ti-view-list",
+      "width",
+      "0px"
+    );
+  });
+
+  it("grid view button is not visible", () => {
+    cy.viewport(device.width, device.height);
+    cy.visit(url);
+    cy.checkCSSPropertyofParent(
+      browser,
+      device.name,
+      viewport,
+      task,
+      testName,
+      ".ti-view-grid",
+      "width",
+      "0px"
     );
   });
 
