@@ -60,7 +60,7 @@ describe("test full screen layout", () => {
     cy.visit(url);
     cy.get(".grid_item").each(($grid_item) => {
       let selector = "Add to compare";
-      cy.selectorByTitleShouldNotBeVisibleWithinParent(
+      cy.selectorByOriginalTitleShouldNotBeVisibleWithinParent(
         browser,
         device.name,
         viewport,
@@ -77,7 +77,7 @@ describe("test full screen layout", () => {
     cy.visit(url);
     cy.get(".grid_item").each(($grid_item) => {
       let selector = "Add to cart";
-      cy.selectorByTitleShouldNotBeVisibleWithinParent(
+      cy.selectorByOriginalTitleShouldNotBeVisibleWithinParent(
         browser,
         device.name,
         viewport,
@@ -125,12 +125,12 @@ describe("test tablet layout", () => {
     );
   });
 
-  it("add to favorites is not visible on items", () => {
+  it("add to favorites is not visible on items in grid", () => {
     cy.viewport(device.width, device.height);
     cy.visit(url);
     cy.get(".grid_item").each(($grid_item) => {
       let selector = "Add to favorites";
-      cy.selectorByTitleShouldBeVisibleWithinParent(
+      cy.selectorByOriginalTitleShouldBeVisibleWithinParent(
         browser,
         device.name,
         viewport,
@@ -142,12 +142,12 @@ describe("test tablet layout", () => {
     });
   });
 
-  it("add to compare is visible on items", () => {
+  it("add to compare is visible on items in grid", () => {
     cy.viewport(device.width, device.height);
     cy.visit(url);
     cy.get(".grid_item").each(($grid_item) => {
       let selector = "Add to compare";
-      cy.selectorByTitleShouldBeVisibleWithinParent(
+      cy.selectorByOriginalTitleShouldBeVisibleWithinParent(
         browser,
         device.name,
         viewport,
@@ -159,12 +159,12 @@ describe("test tablet layout", () => {
     });
   });
 
-  it("add to cart is visible on items", () => {
+  it("add to cart is visible on items in grid", () => {
     cy.viewport(device.width, device.height);
     cy.visit(url);
     cy.get(".grid_item").each(($grid_item) => {
       let selector = "Add to cart";
-      cy.selectorByTitleShouldBeVisibleWithinParent(
+      cy.selectorByOriginalTitleShouldBeVisibleWithinParent(
         browser,
         device.name,
         viewport,
@@ -177,141 +177,142 @@ describe("test tablet layout", () => {
   });
 });
 
-describe("test mobile layout", () => {
-  let device = {
-    name: "Mobile",
-    width: 500,
-    height: 700,
-  };
-  let viewport = `${device.width.toString()}x${device.height.toString()}`;
+if (Cypress.isBrowser("chrome")) {
+  describe("test mobile layout", () => {
+    let device = {
+      name: "Mobile",
+      width: 500,
+      height: 700,
+    };
+    let viewport = `${device.width.toString()}x${device.height.toString()}`;
 
-  it("test filter button is  visible", () => {
-    cy.viewport(device.width, device.height);
-    cy.visit(url);
-    cy.selectorShouldBeVisible(
-      browser,
-      device.name,
-      viewport,
-      task,
-      testName,
-      "#ti-filter"
-    );
-  });
-
-  it("Hide search field on mobile", () => {
-    cy.viewport(device.width, device.height);
-    cy.visit(url);
-    cy.selectorShouldNotBeVisible(
-      browser,
-      device.name,
-      viewport,
-      task,
-      testName,
-      "#INPUTtext____42"
-    );
-  });
-
-  it("test wish list icon is visible", () => {
-    cy.viewport(device.width, device.height);
-    cy.visit(url);
-    cy.selectorShouldNotBeVisible(
-      browser,
-      device.name,
-      viewport,
-      task,
-      testName,
-      ".wishlist"
-    );
-  });
-
-  it("add to favorites is not visible on items at full width", () => {
-    cy.viewport(device.width, device.height);
-    cy.visit(url);
-    cy.get(".grid_item").each(($grid_item) => {
-      let selector = "Add to favorites";
-      cy.selectorByTitleShouldBeVisibleWithinParent(
+    it("test filter button is  visible", () => {
+      cy.viewport(device.width, device.height);
+      cy.visit(url);
+      cy.selectorShouldBeVisible(
         browser,
         device.name,
         viewport,
         task,
         testName,
-        selector,
-        $grid_item
+        "#ti-filter"
       );
     });
-  });
 
-  it("add to compare is visible on items", () => {
-    cy.viewport(device.width, device.height);
-    cy.visit(url);
-    cy.get(".grid_item").each(($grid_item) => {
-      let selector = "Add to compare";
-      cy.selectorByTitleShouldBeVisibleWithinParent(
+    it("Hide search field on mobile", () => {
+      cy.viewport(device.width, device.height);
+      cy.visit(url);
+      cy.selectorShouldNotBeVisible(
         browser,
         device.name,
         viewport,
         task,
         testName,
-        selector,
-        $grid_item
+        "#INPUTtext____42"
       );
     });
-  });
 
-  it("add to cart is visible on items", () => {
-    cy.viewport(device.width, device.height);
-    cy.visit(url);
-    cy.get(".grid_item").each(($grid_item) => {
-      let selector = "Add to cart";
-      cy.selectorByTitleShouldBeVisibleWithinParent(
+    it("test wish list icon is visible", () => {
+      cy.viewport(device.width, device.height);
+      cy.visit(url);
+      cy.selectorShouldNotBeVisible(
         browser,
         device.name,
         viewport,
         task,
         testName,
-        selector,
-        $grid_item
+        ".wishlist"
+      );
+    });
+
+    it("add to favorites is visible on items in grid", () => {
+      cy.viewport(device.width, device.height);
+      cy.visit(url);
+      cy.get(".grid_item").each(($grid_item) => {
+        let selector = "Add to favorites";
+        cy.selectorByOriginalTitleShouldBeVisibleWithinParent(
+          browser,
+          device.name,
+          viewport,
+          task,
+          testName,
+          selector,
+          $grid_item
+        );
+      });
+    });
+
+    it("add to compare is visible on items in grid", () => {
+      cy.viewport(device.width, device.height);
+      cy.visit(url);
+      cy.get(".grid_item").each(($grid_item) => {
+        let selector = "Add to compare";
+        cy.selectorByOriginalTitleShouldBeVisibleWithinParent(
+          browser,
+          device.name,
+          viewport,
+          task,
+          testName,
+          selector,
+          $grid_item
+        );
+      });
+    });
+
+    it("add to cart is visible on all items in grid", () => {
+      cy.viewport(device.width, device.height);
+      cy.visit(url);
+      cy.get(".grid_item").each(($grid_item) => {
+        let selector = "Add to cart";
+        cy.selectorByOriginalTitleShouldBeVisibleWithinParent(
+          browser,
+          device.name,
+          viewport,
+          task,
+          testName,
+          selector,
+          $grid_item
+        );
+      });
+    });
+
+    it("Quick Links footer bar should be collapsed", () => {
+      cy.viewport(device.width, device.height);
+      cy.visit(url);
+      cy.checkChildrenHidden(
+        browser,
+        device.name,
+        viewport,
+        task,
+        testName,
+        "#collapse_1"
+      );
+    });
+
+    it("Contacts footer bar should be collapsed", () => {
+      cy.viewport(device.width, device.height);
+      cy.visit(url);
+      cy.checkChildrenHidden(
+        browser,
+        device.name,
+        viewport,
+        task,
+        testName,
+        "#collapse_3"
+      );
+    });
+
+    it("Keep In Touch footer bar should be collapsed", () => {
+      cy.viewport(device.width, device.height);
+      cy.visit(url);
+      cy.checkChildrenHidden(
+        browser,
+        device.name,
+        viewport,
+        task,
+        testName,
+        "#collapse_4"
       );
     });
   });
-
-  it("Quick Links footer bar should be collapsed", () => {
-    cy.viewport(device.width, device.height);
-    cy.visit(url);
-    cy.selectorShouldNotBeVisible(
-      browser,
-      device.name,
-      viewport,
-      task,
-      testName,
-      "#UL____424"
-    );
-  });
-
-  it("Contacts footer bar should be collapsed", () => {
-    cy.viewport(device.width, device.height);
-    cy.visit(url);
-    cy.selectorShouldNotBeVisible(
-      browser,
-      device.name,
-      viewport,
-      task,
-      testName,
-      "#UL____440"
-    );
-  });
-
-  it("Keep In Touch footer bar should be collapsed", () => {
-    cy.viewport(device.width, device.height);
-    cy.visit(url);
-    cy.findByText(/keep in touch/i).should("be.visible");
-    cy.selectorShouldNotBeVisible(
-      browser,
-      device.name,
-      viewport,
-      task,
-      testName,
-      "#email_newsletter"
-    );
-  });
-});
+}

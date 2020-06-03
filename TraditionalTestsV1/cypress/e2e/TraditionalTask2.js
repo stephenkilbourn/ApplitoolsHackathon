@@ -14,7 +14,7 @@ describe("test full screen layout", () => {
   };
   let viewport = `${device.width.toString()}x${device.height.toString()}`;
 
-  it("Item Count of results is invalid", () => {
+  it("item count of results is valid", () => {
     cy.viewport(device.width, device.height);
     cy.visit(url);
     cy.findByRole("checkbox", { name: /black/i }).click();
@@ -31,7 +31,7 @@ describe("test full screen layout", () => {
     );
   });
 
-  it("add to favorites is not visible on items at full width", () => {
+  it("add to favorites is not visible on grid items at full width", () => {
     cy.viewport(device.width, device.height);
     cy.visit(url);
     cy.findByRole("checkbox", { name: /black/i }).click();
@@ -50,7 +50,7 @@ describe("test full screen layout", () => {
     });
   });
 
-  it("add to compare is not visible on items at full width", () => {
+  it("add to compare is not visible on grid items at full width", () => {
     cy.viewport(device.width, device.height);
     cy.visit(url);
     cy.findByRole("checkbox", { name: /black/i }).click();
@@ -69,7 +69,7 @@ describe("test full screen layout", () => {
     });
   });
 
-  it("add to cart is not visible on items at full width", () => {
+  it("add to cart is not visible on grid items at full width", () => {
     cy.viewport(device.width, device.height);
     cy.visit(url);
     cy.findByRole("checkbox", { name: /black/i }).click();
@@ -97,7 +97,7 @@ describe("test tablet layout", () => {
   };
   let viewport = `${device.width.toString()}x${device.height.toString()}`;
 
-  it("Item Count of results is valid", () => {
+  it("item count of results is valid", () => {
     cy.viewport(device.width, device.height);
     cy.visit(url);
     cy.get("#ti-filter").click();
@@ -115,74 +115,7 @@ describe("test tablet layout", () => {
     );
   });
 
-  it("add to compare is visible on items", () => {
-    cy.viewport(device.width, device.height);
-    cy.visit(url);
-    cy.get("#ti-filter").click();
-    cy.findByRole("checkbox", { name: /black/i }).click();
-    cy.findByRole("button", { name: /filter/i }).click();
-    cy.get(".grid_item").each(($grid_item) => {
-      let selector = "Add to compare";
-      cy.selectorByTitleShouldBeVisibleWithinParent(
-        browser,
-        device.name,
-        viewport,
-        task,
-        testName,
-        selector,
-        $grid_item
-      );
-    });
-  });
-
-  it("add to cart is visible on items", () => {
-    cy.viewport(device.width, device.height);
-    cy.visit(url);
-    cy.get("#ti-filter").click();
-    cy.findByRole("checkbox", { name: /black/i }).click();
-    cy.findByRole("button", { name: /filter/i }).click();
-    cy.get(".grid_item").each(($grid_item) => {
-      let selector = "Add to cart";
-      cy.selectorByTitleShouldBeVisibleWithinParent(
-        browser,
-        device.name,
-        viewport,
-        task,
-        testName,
-        selector,
-        $grid_item
-      );
-    });
-  });
-});
-
-describe("test mobile layout", () => {
-  let device = {
-    name: "Mobile",
-    width: 500,
-    height: 700,
-  };
-  let viewport = `${device.width.toString()}x${device.height.toString()}`;
-
-  it("Item Count of results is valid", () => {
-    cy.viewport(device.width, device.height);
-    cy.visit(url);
-    cy.get("#ti-filter").click();
-    cy.findByRole("checkbox", { name: /black/i }).click();
-    cy.findByRole("button", { name: /filter/i }).click();
-
-    cy.testChildrenCount(
-      browser,
-      device.name,
-      viewport,
-      task,
-      testName,
-      "#product_grid",
-      expectedNumberOfResults
-    );
-  });
-
-  it("add to favorites is visible on items", () => {
+  it("add to favorites is visible on all items in grid", () => {
     cy.viewport(device.width, device.height);
     cy.visit(url);
     cy.get("#ti-filter").click();
@@ -202,7 +135,7 @@ describe("test mobile layout", () => {
     });
   });
 
-  it("add to compare is visible on items", () => {
+  it("add to compare is visible on all items in grid", () => {
     cy.viewport(device.width, device.height);
     cy.visit(url);
     cy.get("#ti-filter").click();
@@ -222,7 +155,7 @@ describe("test mobile layout", () => {
     });
   });
 
-  it("add to cart is visible on items", () => {
+  it("add to cart is visible on all items in grid", () => {
     cy.viewport(device.width, device.height);
     cy.visit(url);
     cy.get("#ti-filter").click();
@@ -242,3 +175,92 @@ describe("test mobile layout", () => {
     });
   });
 });
+
+if (Cypress.isBrowser('chrome')) {
+  describe("test mobile layout", () => {
+    let device = {
+      name: "Mobile",
+      width: 500,
+      height: 700,
+    };
+    let viewport = `${device.width.toString()}x${device.height.toString()}`;
+
+    it("item count of results is valid", () => {
+      cy.viewport(device.width, device.height);
+      cy.visit(url);
+      cy.get("#ti-filter").click();
+      cy.findByRole("checkbox", { name: /black/i }).click();
+      cy.findByRole("button", { name: /filter/i }).click();
+
+      cy.testChildrenCount(
+        browser,
+        device.name,
+        viewport,
+        task,
+        testName,
+        "#product_grid",
+        expectedNumberOfResults
+      );
+    });
+
+    it("add to favorites is visible on all items in grid", () => {
+      cy.viewport(device.width, device.height);
+      cy.visit(url);
+      cy.get("#ti-filter").click();
+      cy.findByRole("checkbox", { name: /black/i }).click();
+      cy.findByRole("button", { name: /filter/i }).click();
+      cy.get(".grid_item").each(($grid_item) => {
+        let selector = "Add to favorites";
+        cy.selectorByTitleShouldBeVisibleWithinParent(
+          browser,
+          device.name,
+          viewport,
+          task,
+          testName,
+          selector,
+          $grid_item
+        );
+      });
+    });
+
+    it("add to compare is visible on all items in grid", () => {
+      cy.viewport(device.width, device.height);
+      cy.visit(url);
+      cy.get("#ti-filter").click();
+      cy.findByRole("checkbox", { name: /black/i }).click();
+      cy.findByRole("button", { name: /filter/i }).click();
+      cy.get(".grid_item").each(($grid_item) => {
+        let selector = "Add to compare";
+        cy.selectorByTitleShouldBeVisibleWithinParent(
+          browser,
+          device.name,
+          viewport,
+          task,
+          testName,
+          selector,
+          $grid_item
+        );
+      });
+    });
+
+    it("add to cart is visible on all items in grid", () => {
+      cy.viewport(device.width, device.height);
+      cy.visit(url);
+      cy.get("#ti-filter").click();
+      cy.findByRole("checkbox", { name: /black/i }).click();
+      cy.findByRole("button", { name: /filter/i }).click();
+      cy.get(".grid_item").each(($grid_item) => {
+        let selector = "Add to cart";
+        cy.selectorByTitleShouldBeVisibleWithinParent(
+          browser,
+          device.name,
+          viewport,
+          task,
+          testName,
+          selector,
+          $grid_item
+        );
+      });
+    });
+  });
+}
