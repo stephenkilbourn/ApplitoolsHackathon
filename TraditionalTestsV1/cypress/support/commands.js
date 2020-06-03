@@ -31,14 +31,14 @@ Cypress.Commands.add(
       const $el = cy.$$(`${selector}:visible`);
       if ($el.length) {
         cy.writeFile(
-          "Traditional-V1-TestResults.txt",
+          logFileName,
           `"Task: ${task}, Test Name: ${testName}, DOM Id: ${selector}, Browser: ${browser}, Viewport: ${viewport}, Device: ${device}, Status: Fail\n`,
           { flag: "a+" }
         );
         cy.get(selector).should("not.be.visible");
       } else {
         cy.writeFile(
-          "Traditional-V1-TestResults.txt",
+          logFileName,
           `"Task: ${task}, Test Name: ${testName}, DOM Id: ${selector}, Browser: ${browser}, Viewport: ${viewport}, Device: ${device}, Status: Pass\n`,
           { flag: "a+" }
         );
