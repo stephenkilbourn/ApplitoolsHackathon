@@ -1,4 +1,4 @@
-This repo contains source code for my entry to the [Applitools](https://applitools.com/) Cross Browser Testing Hackathon using Cypress testing framework to run cross browser tests on both the Applitools Ultrafast Grid for the modern approach and the traditional approach using my local Chrome, Firefox, and Edge Chromium browsers.
+This repo contains source code for my Platinum winning entry to the [Applitools](https://applitools.com/) Cross Browser Testing Hackathon using Cypress testing framework to run cross browser tests on both the Applitools Ultrafast Grid for the modern approach and the traditional approach using my local Chrome, Firefox, and Edge Chromium browsers.
 
 ## Overview
 
